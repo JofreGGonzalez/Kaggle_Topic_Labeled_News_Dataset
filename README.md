@@ -46,8 +46,7 @@ Primer de tot hem revisat que no hi haguéssin dades incoherents com dates d'art
 
 
 ## Demo
-Per tal de fer una prova, es pot fer servir amb la següent comanda
-``` python3 demo/demo.py --input here ```
+No he generat cap tipus de demo
 ## Conclusions
 Podem conloure dient que amb la BD actual, el classificador Naive Bayes ens està donant un accuracy significativament superior (6%) respecte el classificador SVM alhora de classificar els articles segons el tópic en un temps molt similar (1s aprox.).<br><br>
 
@@ -59,5 +58,4 @@ Seria interesant:
 * Aumentar la BD i provar si obtenim millors accuracy amb un volum de dades major i amb més topics a classificar
 * Afegir a la BD una columna de "rating" dels usuaris sobre l'article, així també podriem fer recomenadors "Collaborative-filtering"
 * Comparar més classificadors i observar si ens donen millor accuray i el seu cost computacional
-## Llicencia
-El projecte s’ha desenvolupat sota llicència ZZZz.
+
